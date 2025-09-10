@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recruit CRM Sidebar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark">
+  <div class="container">
+    <!-- Left Sidebar -->
+    <aside class="left-bar">
+      <img src="logo.png" class="logo" alt="logo">
+      <i class="fas fa-table-columns" title="Columns" data-panel="columns"></i>
+      <i class="fas fa-clipboard-check" title="Checklist" data-panel="checklist"></i>
+
+      <div class="spacer"></div>
+
+      <i class="fas fa-cog" title="Settings"></i>
+      <i id="themeToggle" class="fas fa-moon" title="Toggle Theme"></i>
+      <i class="fas fa-user" title="Profile" data-panel="profile"></i>
+    </aside>
+
+    <!-- Right Expandable Panel -->
+    <nav id="rightPanel" class="right-panel">
+      <div class="menu-icons">
+        <!-- Panel title + top toggle -->
+        <div class="menu-item panel-title">
+          <span id="panelTitle">Dashboard</span>
+          <i id="toggleBtn" class="fas fa-chevron-left" title="Expand/Collapse"></i>
+        </div>
+        <!-- Search -->
+        <div class="menu-item search">
+          <i class="fas fa-search"></i><input type="text" placeholder="Search..." />
+        </div>
+        <!-- Dynamic menu items will be injected here -->
+      </div>
+    </nav>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
