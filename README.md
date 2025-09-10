@@ -17,8 +17,13 @@ It features expandable panels, dark/light theme toggle, and dynamic menu section
 ---
 
 ## 📂 Project Structure
+
 ├── index.html # Main HTML file
+
 ├── style.css # Styles (CSS3 with variables, transitions, responsive design)
+
 ├── script.js # JavaScript (menu rendering, theme, localStorage)
+
 ├── logo.png # Sidebar logo
+
 └── README.md # Documentation
